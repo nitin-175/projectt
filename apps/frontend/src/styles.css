@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-primary: #6366f1;
+    --brand-secondary: #0f172a;
+    color: #1e293b;
+    background: #f8fafc;
+  }
+
+  body {
+    @apply font-body antialiased;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight text-premium;
+  }
+}
+
+@layer components {
+  .premium-gradient-text {
+    @apply bg-gradient-to-r from-brand-600 to-accent-600 bg-clip-text text-transparent;
+  }
+  
+  .glass-card {
+    @apply border border-white/20 bg-white/10 backdrop-blur-md shadow-glass;
+  }
+
+  .btn-premium {
+    @apply relative overflow-hidden rounded-full bg-premium px-8 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:scale-[1.02] hover:shadow-premium active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-premium transition-all duration-300 hover:bg-surface-50 hover:shadow-md;
+  }
+}
+

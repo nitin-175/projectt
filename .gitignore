@@ -1,0 +1,16 @@
+node_modules
+dist
+.vite
+.idea
+.vscode
+coverage
+.DS_Store
+*.log
+.env
+.env.local
+target
+.pnpm-store
+*.tsbuildinfo
+uploads
+.m2/
+.codex-logs/

@@ -1,0 +1,12 @@
+﻿{
+  "name": "show-booking-platform",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.6.1",
+  "scripts": {
+    "dev:frontend": "pnpm --filter frontend dev",
+    "build:frontend": "pnpm --filter frontend build",
+    "lint:frontend": "pnpm --filter frontend lint",
+    "typecheck": "pnpm --filter frontend typecheck"
+  }
+}
