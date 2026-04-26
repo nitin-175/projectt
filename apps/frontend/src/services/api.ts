@@ -2,7 +2,7 @@ import axios from "axios";
 import { useSessionStore } from "../store/sessionStore";
 
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8080/api",
+  baseURL: import.meta.env.VITE_API_BASE_URL ?? "https://projectt-1-g2ww.onrender.com/api",
   timeout: 10000,
 });
 

@@ -12,5 +12,5 @@ export function resolveMediaUrl(path: string | null | undefined) {
   }
 
   const normalized = path.startsWith("/") ? path : `/${path}`;
-  return `http://localhost:8080${normalized}`;
+  return `https://projectt-1-g2ww.onrender.com ${normalized}`;
 }
