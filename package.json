@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "show-booking-platform",
   "private": true,
   "version": "0.1.0",
@@ -8,5 +8,8 @@
     "build:frontend": "pnpm --filter frontend build",
     "lint:frontend": "pnpm --filter frontend lint",
     "typecheck": "pnpm --filter frontend typecheck"
+  },
+  "dependencies": {
+    "mysql2": "^3.22.2"
   }
 }
