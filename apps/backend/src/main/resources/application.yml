@@ -22,7 +22,7 @@ app:
   google:
     client-id: ${GOOGLE_CLIENT_ID:}
     client-secret: ${GOOGLE_CLIENT_SECRET:}
-    redirect-uri: ${GOOGLE_REDIRECT_URI:http://localhost:8080/api/auth/google/callback}
+    redirect-uri: ${GOOGLE_REDIRECT_URI:https://projectt-1-g2ww.onrender.com/api/auth/google/callback}
     frontend-success-url: ${GOOGLE_FRONTEND_SUCCESS_URL:http://localhost:5173/auth/google/callback}
   seed:
     demo-data: false
