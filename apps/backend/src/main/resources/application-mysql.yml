@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:boot_course}?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: ${DB_USERNAME:root}
-    password: ${DB_PASSWORD:root}
+    url: jdbc:postgresql://${dpg-d7nbcjgk1i2s739ire20-a}:${5432}/${booking_system}
+    username: ${project_cc3r_user}
+    password: ${3eSkpGmC2OpT0fZw8NPUV72mOpS7k8V9}
+    driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
