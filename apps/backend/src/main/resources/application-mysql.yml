@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${dpg-d7nbcjgk1i2s739ire20-a}:${5432}/${booking_system}
+    url: jdbc:postgresql://${dpg-d7nbcjgk1i2s739ire20-a}:${5432}/${booking_system}?sslmode=require
     username: ${project_cc3r_user}
     password: ${3eSkpGmC2OpT0fZw8NPUV72mOpS7k8V9}
     driver-class-name: org.postgresql.Driver
